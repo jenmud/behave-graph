@@ -29,7 +29,7 @@ $ behave-graph-ve/bin/pip install behave-graph  # use -e to do a develop install
 
 ## Running a scrape and starting a webserver
 ```bash
-$ ansible-graph-ve/bin/behave-graph --runserver -b ruruki/ruruki/test_behave
+$ behave-graph-ve/bin/behave-graph --runserver -b ruruki/ruruki/test_behave
 INFO:root:Starting server 0.0.0.0:8000
 INFO:ruruki_eye.server:Setting up db to <ruruki.graphs.Graph object at 0x10df1b150>
 INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
