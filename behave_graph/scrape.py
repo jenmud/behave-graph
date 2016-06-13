@@ -161,7 +161,7 @@ def scrape_features(features):
             line=feature.line,
         )
 
-        scrape_scenarios(feature.scenarios, node)
+        scrape_scenarios(feature.walk_scenarios(), node)
 
         if feature.background is not None:
             scrape_background(feature.background, node)
