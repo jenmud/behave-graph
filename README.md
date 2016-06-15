@@ -5,6 +5,7 @@ Keeping track of all the behave features, scenarios, and steps can be challengin
 ## TO DO
 
 * Add in tests!!
+* Add to travis
 
 # Installing, Developing, and Running
 
