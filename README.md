@@ -46,6 +46,10 @@ http://0.0.0.0:8000
 
 To use the [behave-graph docker container](https://hub.docker.com/r/jenmud/behave-graph/), you will need to mount your root test behave directory which contains all the features and steps to the container directory called `my-share`. The [ruruki-eye](https://www.github.com/optiver/ruruki-eye) server will listen and expose port 80. So you may need to port map.
 
+### There are two containers
+* [jenmud/behave-graph](https://hub.docker.com/r/jenmud/behave-graph) - stable
+* [jenmud/behave-graph-auto-build](https://hub.docker.com/r/jenmud/behave-graph-auto-build) - auto generated from github when a push has happened. ``This is development and latest pushes and is not regarded stable``
+
 Example mounting volumes to scrape and mapping port 80 to 8000.
 
 ```bash
